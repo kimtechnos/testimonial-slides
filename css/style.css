@@ -1,0 +1,77 @@
+/* google forms */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   font-family: 'poppins', sans-serif;
+   margin: 0;
+   padding:0 ;
+   box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #e3f2fd;
+    
+}
+
+.image{
+    width: 17rem;
+    height: 17rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+
+}
+.testimonial{
+    position: relative;
+    max-width: 56.25rem;
+    width: 100%;
+    padding: 3.12rem 0;
+    row-gap: 1.89rem;
+    background-color: #fff; 
+    overflow: hidden;
+
+    border-radius: 3%;
+    
+    
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide p {
+    text-align: center;
+    padding: 0 6.25rem;
+    font-size: 0.87rem;
+    font-weight: 400;
+    
+    color: #333;
+    
+    
+}
+.slide .quote-icon{
+    color: blue;
+    font-size: 1.8rem;
+
+}
+.slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+.details .name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.details .job{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
