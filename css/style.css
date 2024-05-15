@@ -32,7 +32,8 @@
     padding: 3.12rem 0;
     row-gap: 1.89rem;
     background-color: #fff; 
-    overflow: hidden;
+    overflow: auto;
+    max-height: 400px;
 
     border-radius: 3%;
     
@@ -49,7 +50,7 @@
     padding: 0 6.25rem;
     font-size: 0.87rem;
     font-weight: 400;
-    
+
     color: #333;
     
     
